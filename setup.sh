@@ -11,7 +11,7 @@ cp ./lab_share/program/* ./.rws
 cat ./lab_share/alias_list
 cat ./lab_share/alias_list >> .bashrc
 
-sourse .bashrc
+source .bashrc
 
 
 

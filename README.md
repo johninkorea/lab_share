@@ -26,7 +26,7 @@ cd lab_share
 ```
 setup.py를 실행해 줍니다.
 ```
-python setup.py
+sh setup.sh
 ```
 
 

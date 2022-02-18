@@ -3,8 +3,8 @@
 cd ~
 
 
-mkdir rws
-cp ./lab_share/program/* ./rws
+mkdir .rws
+cp ./lab_share/program/* ./.rws
 
 
 

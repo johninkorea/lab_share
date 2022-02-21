@@ -41,6 +41,7 @@ sh setup.sh
 mplot
 ```
 2. murnaghan fitting을 하기 위한 데이터 파일을 번호를 입력하여 줍니다.
+3. plot된 그림을 확인하고 출력된 결과를 POSCAR에 이용합니다.
 
 
 

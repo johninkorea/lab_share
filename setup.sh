@@ -1,6 +1,5 @@
 #!/bin/bash
 
-PATH=`pwd -P`
 cd ~
 
 mkdir .rws

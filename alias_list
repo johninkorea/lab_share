@@ -1,2 +1,3 @@
 # rws program setup
 alias mplot='~/.rws/mplotenergy'
+alias mscp='sh ~/.rws/mscp.sh'

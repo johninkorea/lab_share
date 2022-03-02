@@ -13,7 +13,8 @@ echo "enter the file path: "
 read path
 echo "path: $path"
 
-scp {id}@[{ipaddress}]:/$path .'''
+scp {id}@[{ipaddress}]:/$path .
+scp -r  {id}@[{ipaddress}]:/$path .'''
 
 file=open('~/.rws/mscp.sh')
 

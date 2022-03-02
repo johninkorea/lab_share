@@ -16,7 +16,7 @@ echo "path: $path"
 scp {id}@[{ipaddress}]:/$path .
 scp -r  {id}@[{ipaddress}]:/$path .'''
 
-file=open('~/.rws/mscp.sh')
+file=open('~/.rws/mscp.sh','w')
 
 file.write(st)
 file.close()

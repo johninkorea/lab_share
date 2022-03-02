@@ -26,7 +26,7 @@ cd lab_share
 ```
 setup.py를 실행해 줍니다.
 ```
-sh setup.sh
+python setup.py
 ```
 터미널을 다시 시작합니다.
 
@@ -44,6 +44,14 @@ mplot
 3. plot된 그림을 확인하고 출력된 결과를 POSCAR에 이용합니다.
 
 
+* mscp
 
+scp를 할때 코드를 줄여준다.
+
+scp해서 파일이 도착할 지점에서 다음 코드를 입력
+```
+mscp
+```
+slurm에서 파일의 주소를 입력한다. (pwd 사용)
 
 

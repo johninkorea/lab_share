@@ -1,21 +1,32 @@
 #!/bin/bash
 
+# git clone https://github.com/johninkorea/lab_share.git
+# cd lab_share
+
+echo "Determine where the repository is cloned."
 r_path=${PWD}
-
-echo $r_path
-
-
+echo "path: " $r_path
+echo
 
 
-# cd ~
+echo "making .rws dir at your home."
+cd ~
+mkdir .rws
+echo "done"
+echo
 
-# mkdir .rws
-# cp ./lab_share/program/* ./.rws
-# echo "program install done"
+echo "program install"
+cp $r_path/* ./.rws
+echo "program install done"
+echo
 
-# cat ./lab_share/alias_list
-# cat ./lab_share/alias_list >> .bashrc
-# echo "shortcut keys uodate done"
+echo "shortcut keys seting"
+cat $r_path/alias_list
+cat $r_path/alias_list >> .bashrc
+echo "shortcut keys uodate done"
+echo
 
-# source ~/.bashrc
-# echo "install successfully done"
+source ~/.bashrc
+echo "install successfully done"
+echo "restart terminal. hope you enjoy."
+echo "site "

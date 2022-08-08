@@ -3,13 +3,11 @@
 # git clone https://github.com/johninkorea/lab_share.git
 # cd lab_share
 
-echo "Determine where the repository is cloned."
 r_path=${PWD}
 echo "path: " $r_path
 echo
 
-
-echo "making .rws dir at your home."
+echo "make .rws dir in your home."
 cd ~
 mkdir .rws
 echo "done"
@@ -21,13 +19,14 @@ echo "done"
 echo
 
 echo "shortcut keys seting"
-cat $r_path/alias_list
-cat $r_path/alias_list >> .bashrc
+cat $r_path/program/alias_list_1
+cat $r_path/program/alias_list_1 >> .bashrc
 echo "done"
 echo
 
-source ~/.bashrc
-
 echo "all successfully done"
-echo "please restart terminal. hope you enjoy."
-echo "-johninkorea-"
+echo "restart terminal."
+echo  "hope you enjoy."
+
+echo
+echo "github id : johninkorea"

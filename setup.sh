@@ -1,14 +1,21 @@
 #!/bin/bash
 
-cd ~
+r_path=${PWD}
 
-mkdir .rws
-cp ./lab_share/program/* ./.rws
-echo "program install done"
+echo $r_path
 
-cat ./lab_share/alias_list
-cat ./lab_share/alias_list >> .bashrc
-echo "shortcut keys uodate done"
 
-source ~/.bashrc
-echo "install successfully done"
+
+
+# cd ~
+
+# mkdir .rws
+# cp ./lab_share/program/* ./.rws
+# echo "program install done"
+
+# cat ./lab_share/alias_list
+# cat ./lab_share/alias_list >> .bashrc
+# echo "shortcut keys uodate done"
+
+# source ~/.bashrc
+# echo "install successfully done"

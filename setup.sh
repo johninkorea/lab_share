@@ -16,17 +16,18 @@ echo "done"
 echo
 
 echo "program install"
-cp $r_path/* ./.rws
-echo "program install done"
+cp $r_path/program/* ./.rws
+echo "done"
 echo
 
 echo "shortcut keys seting"
 cat $r_path/alias_list
 cat $r_path/alias_list >> .bashrc
-echo "shortcut keys uodate done"
+echo "done"
 echo
 
 source ~/.bashrc
-echo "install successfully done"
-echo "restart terminal. hope you enjoy."
-echo "site "
+
+echo "all successfully done"
+echo "please restart terminal. hope you enjoy."
+echo "-johninkorea-"

@@ -53,16 +53,22 @@ mplot
 surface -in=./POSCAR
 ```
 * 옵션
-  -in --input_file :: 
-  -M  --miller_index :: 
-  -S  --slab :: 
-  -V  --vacuum :: 
-  -SC --supercell :: 
-  -R  --result :: 
-  -B  --bottom :: 
+  -in --input_file :: 평면을 구서할 인풋 벌크 구조. vasp POSCAR and Cif 가능
+  
+  -M  --miller_index :: 결과의 단면을 마일러 인덱스로 정의. defult=0,0,1
+  
+  -S  --slab :: 평면의 구께를 정의. defult=10A
+  
+  -V  --vacuum :: 진공의 길이를 정의. defult=10A
+  
+  -SC --supercell :: 기본 결과는 primitive cell로 나옴, 평면을 크게 정의하고 싶을 때 설정. ex) -SC=2,2,1
+  
+  -R  --result :: 결과 형식을 POSCAR or lammps 중에 선택. 문자로 p or l을 입력.
+  
+  -B  --bottom :: 평면을 cell의 바닥으로 내릴 것인지. defult=True. False를 원하면 숫자 0을 입력.
 
-### 주의!
-    
+  주의!
+    lammps 결과에서 3번째 열을 보면 0.000으로 나와있음. 이부분을 지워야함!!
 
 3. 결과 확인
 

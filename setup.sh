@@ -8,13 +8,12 @@ echo "path: " $r_path
 echo
 
 echo "make .rws dir in your home."
-cd ~
-mkdir .rws
+mkdir ~/.rws
 echo "done"
 echo
 
 echo "program install"
-cp $r_path/program/* ./.rws
+cp -r $r_path/program/* ~/.rws
 echo "done"
 echo
 

@@ -53,6 +53,7 @@ mplot
 surface -in=./POSCAR
 ```
 * 옵션
+
   -in --input_file :: 평면을 구서할 인풋 벌크 구조. vasp POSCAR and Cif 가능
   
   -M  --miller_index :: 결과의 단면을 마일러 인덱스로 정의. defult=0,0,1

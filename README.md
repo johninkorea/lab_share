@@ -35,7 +35,7 @@ sh setup.sh
 
 
 ## 사용 방법
-* murnaghan fitting
+### murnaghan fitting
 1. 에너지 데이터가 저장되어있는 폴더로 들어갑니다. (ex 폴더 안에 에너지 파일 예시가 있음.)
 
 2. 아래 명령어를 실행.
@@ -45,19 +45,29 @@ mplot
 2. fitting을 하기 위한 데이터 파일을 번호를 입력하여 줍니다.
 3. plot된 그림을 확인하고 출력된 결과를 POSCAR에 이용합니다.
 
-* make surface for MD
+### make surface for MD
 1. 평면 구조를 만드려는 bulk 구조가있는 폴더로 이동.
 
 2. 아래 명령어를 실행.
 ```
 surface -in=./POSCAR
 ```
-** 옵션
+* 옵션
+  -in --input_file :: 
+  -M  --miller_index :: 
+  -S  --slab :: 
+  -V  --vacuum :: 
+  -SC --supercell :: 
+  -R  --result :: 
+  -B  --bottom :: 
+
+### 주의!
+    
 
 3. 결과 확인
 
 
-* ~~mscp~~ (현재 사용할 수 없음)
+### ~~mscp~~ (현재 사용할 수 없음)
 
 ~~scp를 할때 코드를 줄여준다.~~
 

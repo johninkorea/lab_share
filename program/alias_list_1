@@ -1,5 +1,0 @@
-# rws program setup
-alias mplot='~/.rws/mplotenergy'
-alias surface='python ~/.rws/surface_master.py'
-# alias mscp='sh ~/.rws/mscp.sh'
-# rws setup end

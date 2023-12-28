@@ -1,0 +1,10 @@
+## shortcut setting
+
+alias mopt='~/.rws/program/opt/1_calculation'
+alias mgrep='~/.rws/program/opt/2_grepenergy'
+alias mplot='~/.rws/program/opt/3_plotenergy'
+
+# alias surface='python ~/.rws/surface_master.py'
+
+alias mscp1='sh ~/.rws/program/b-script/mscp1.sh'
+alias mscp2='sh ~/.rws/program/b-script/mscp2.sh'
